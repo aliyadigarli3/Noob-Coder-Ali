@@ -231,6 +231,28 @@
     border: none;
     cursor: pointer;
   }
+
+    .link {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: transform 0.2s, -webkit-transform 0.2s; 
+      text-align: right;
+    }
+
+    .link:hover {
+      transition: scale(1.4);
+      -webkit-transform: scale(1.04);
+    }
+
+    .header h2{
+        margin-right: 500px;
+        width: 300px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        height: 2px;
+    }
     
   </style>
 </head>
@@ -257,12 +279,16 @@
 </html>
   <header class="header">
     <h1>NoobCoderAli</h1>
+    <h2 class="header h2">
+        <a class="link" href="https://noobcoderali.fun/about-me">AboutMe</a>
+        <a class="link" href="ihttps://noobcoderali.fun/">MainPage</a>
+    </h2>
     <p><a href="https://www.youtube.com/channel/UCB892WEO3Pd3PJz-niRXNEA" target="_blank"><img class="NCLogo" src="httml-css-proximasite/N-removebg.png" style="width:75px;height: 75px;"></a></p>
   </header>
 
   <section class="info-section">
-    <h2><a href="https://noobcoderali.fun/about-me">About Me</a></h2>
-    <p class="info">Hi, I'm Ali. I'm a game developer from Azerbaijani. I use Unity for creating game. I know C# well, little bit python, html and css. I use Unity for 2 years. If you want to learn Unity & C# go to my YouTube channel. I learnt <a href="https://scratch.mit.edu/" target="_blank" style="font-weight: bold;">Scratch</a> at the first after 1 month I learnt Unity & C#. I've crated games for 2 years. At the first I was unlucky but I did not stop so I know Unity & C# well.</p>
+    <h2>About Me</h2>
+    <p class="info">Hi, I'm Ali. I'm a game developer from Azerbaijani. I use Unity for creating game. I know C# well, little bit python, html and css. I use Unity for 2 years. If you want to learn Unity & C# go to my YouTube channel. I learnt <a href="https://scratch.mit.edu/" target="_blank" style="font-weight: bold;">Scratch</a> at the first after 1 month I learnt Unity & C#. I've crated games for 2 years. At the first I was unlucky but I did not stop so I know Unity & C# well.<a class="link" href="https://noobcoderali.fun/about-me">More</a></p>
 </section>
 
 
