@@ -188,7 +188,7 @@ span{
 @keyframes words{
     0%,
     20%{
-        content: "Game Devloper";
+        content: "Game Developer";
     }
     21%,
     40%{
@@ -200,11 +200,11 @@ span{
     }
     61%,
     80%{
-        content: "Front-End Devloper";
+        content: "Front-End Developer";
     }
     81%,
     100%{
-        content: "Game Devloper";
+        content: "Game Developer";
     }
 }
 @keyframes typing{
