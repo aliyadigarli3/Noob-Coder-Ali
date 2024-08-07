@@ -32,7 +32,9 @@
 .header:hover{
     width: 3%;
     padding-left: 100px;
-    box-shadow: 0 0 15px var(--main-color);
+    box-shadow: 0 0 0 2px white,
+    0 0 0 5px var(--main-color),
+    5px 5px 10px var(--main-color);
 }
 
 .logo{
