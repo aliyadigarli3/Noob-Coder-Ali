@@ -123,3 +123,15 @@ body {
     font-size: 16px;
     color: white;
 }
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+    border-radius: 20px;
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    width: 50px;
+}
