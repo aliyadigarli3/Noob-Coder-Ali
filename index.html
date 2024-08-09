@@ -188,14 +188,26 @@
 
         <section class="contact" id="contact">
             <h2 class="heading">Contact <span>Me</span></h2>
-            <form action="mailto:aliyadigarli1@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
-                <div class="input-box">
-                    <input type="text" name="full_name" placeholder="Full Name" required>
-                    <input type="email" name="email" placeholder="Email" required>
-                </div>
-                <div class="input-box">
-                    <input type="text" name="subject" placeholder="Subject" required>
-                </div>
+            <form action="https://api.web3forms.com/submit" method="POST" enctype="multipart/form-data" name="EmailForm">
+                <input type="hidden" name="access_key" value="ccc6df1c-2a9b-4acb-9a21-02742c45824b">
+                <input style="width: 100%;
+                padding: 1.5rem;
+                font-size: 1.6rem;
+                color: var(--text-color);
+                background: var(--second-bg-color);
+                border-radius: 0.8rem;
+                border: 2px solid var(--main-color);
+                margin: 1rem 0;
+                resize: none;" type="text" name="name" placeholder="Full Name" required>
+                <input style="width: 100%;
+                padding: 1.5rem;
+                font-size: 1.6rem;
+                color: var(--text-color);
+                background: var(--second-bg-color);
+                border-radius: 0.8rem;
+                border: 2px solid var(--main-color);
+                margin: 1rem 0;
+                resize: none;" type="email" name="email" placeholder="Email" required>
                 <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
             </form>
