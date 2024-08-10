@@ -844,4 +844,11 @@ span{
     .service-box{
         max-width: 320px;
     }
+
+    .text-animation{
+        font-size: 324px;
+        font-weight: 300;
+        min-width: 600px;
+        max-width: 100px;
+    }
 }
