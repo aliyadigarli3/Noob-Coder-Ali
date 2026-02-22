@@ -1,0 +1,72 @@
+/** Required **/
+div.frq_validation_error {
+	color: #FF0000 !important;
+	clear: both;
+	padding: 3px 0px 3px 0px;
+	margin-bottom: 0px;
+	font-style: italic;
+}
+
+input.frq_validation_error {
+	color: #FF0000 !important;
+}
+input.frq_validation_success {	
+}
+
+/** Pagination **/
+.pgn_passive {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: lightblue;
+}
+
+.pgn_active {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background-color: #000000;
+}
+
+.pgn_passive a {
+	text-decoration: none;
+	color: blue;
+}
+
+.pgn_active a {
+	text-decoration: none;
+	color: yellow;
+}
+
+
+/** OVERWRITE **/
+
+.bg-theme-colored2 {
+	background-color: #da1f28 !important;
+}
+.menuzord .menuzord-menu > li.active > a, .menuzord .menuzord-menu > li:hover > a, .menuzord .menuzord-menu ul.dropdown li:hover > a {
+	background-color: #da1f28 !important;
+}
+
+.btn-theme-colored2 {
+	background-color: #da1f28 !important;
+}
+
+.text-theme-colored2 {
+	color: #da1f28 !important;
+}
+.price-tag {
+	background-color: #da1f28 !important;
+}
+.team-block .team-thumb .styled-icons a:hover, .work-gallery .gallery-thumb .styled-icons a:hover, .work-gallery:hover .gallery-bottom-part, .double-line-bottom-theme-colored-2:after, .double-line-bottom-theme-colored-2:before, .double-line-bottom-centered-theme-colored-2:after, .double-line-bottom-centered-theme-colored-2:before, .line-bottom-theme-colored-2:after, .line-bottom-centered::after, .event-block .event-date, .team-social, .event-small .event-date, .portfolio-filter a.active, .title-border::after, .search-menu {
+	background-color: #da1f28 !important;
+}
+
+.menuzord-menu > li > a {
+	font-size: 16px!important;
+	padding: 8px 20px!important;
+}
+
+.menuzord-brand img {
+    max-height: 50px;
+}
