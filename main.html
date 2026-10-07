@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://impress-crush-to.netlify.app/main.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+<!-- This site is hosted on Netlify. Anyone can build and deploy a site
+     like this one for free: https://netlify.new/?utm_campaign=loops&utm_source=ai-legible&utm_medium=owned&utm_content=comment&utm_id=38829a7f-a556-4de6-b82f-48fe74cbb2c2
+     Netlify hosting facts for this site: static/SSR served via Netlify Edge. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senin ucun cox darixiram</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&family=Dancing+Script:wght@700&display=swap');
+
+        body {
+            margin: 0;
+            background: linear-gradient(45deg, #ff007f, #ff69b4);
+            min-height: 100vh;
+            overflow: hidden;
+            position: relative;
+            font-family: 'Dancing Script', cursive;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Floating Elements */
+        .floating-element {
+            position: absolute;
+            animation: float 8s infinite linear;
+            pointer-events: none;
+            opacity: 0.7;
+            font-size: 2rem;
+        }
+
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); }
+            100% { transform: translateY(-100vh) rotate(720deg); }
+        }
+
+        /* Main Container */
+        .love-container {
+            position: relative;
+            z-index: 2;
+            width: 90%;
+            max-width: 800px;
+            perspective: 1000px;
+        }
+
+        /* Love Card */
+        .love-card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px;
+            transform-style: preserve-3d;
+            box-shadow: 0 0 50px rgba(255, 20, 147, 0.3);
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+            cursor: pointer;
+            border: 2px solid transparent;
+            border-image: linear-gradient(45deg, #ff1493, #ff4500, #ff69b4);
+            border-image-slice: 1;
+            max-height: 70vh;
+            overflow: hidden; /* Remove scrollbar */
+            animation: floatUpDown 3s infinite ease-in-out;
+        }
+
+        .love-card:hover {
+            transform: rotateY(5deg) rotateX(5deg) scale(1.02);
+            box-shadow: 0 0 80px rgba(255, 20, 147, 0.5);
+        }
+
+        @keyframes floatUpDown {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Header Styles */
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            position: relative;
+        }
+
+        .couple-names {
+            font-family: 'Great Vibes', cursive;
+            font-size: 4.5rem;
+            background: linear-gradient(45deg, #ff1493, #ff4500, #ff69b4);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 20px 0;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Animated Heart Separator */
+        .heart-separator {
+            text-align: center;
+            margin: 30px 0;
+            animation: heartbeat 1.5s infinite;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.2); }
+            100% { transform: scale(1); }
+        }
+
+        /* Love Letter Content */
+        .love-letter {
+            font-size: 1.4rem;
+            line-height: 2;
+            color: #080808;
+            padding: 30px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .love-letter::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2), transparent);
+            transition: 0.5s;
+        }
+
+        .love-letter:hover::before {
+            left: 100%;
+        }
+
+        /* Signature Section */
+        .signature {
+            text-align: right;
+            margin-top: 40px;
+            font-family: 'Pacifico', cursive;
+            font-size: 1.5rem;
+            color: #ff0066;
+            opacity: 0;
+            animation: fadeInUp 1s ease forwards 2s;
+            position: relative;
+        }
+
+        .signature::after {
+            content: '💖';
+            position: absolute;
+            right: -40px;
+            top: -10px;
+            font-size: 2rem;
+            animation: spin 8s linear infinite;
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Music Player */
+        .music-player {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 5px 25px rgba(255, 20, 147, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            z-index: 3;
+        }
+
+        .music-player:hover {
+            transform: scale(1.1) rotate(180deg);
+            background: #ff69b4;
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .couple-names { font-size: 3rem; }
+            .love-letter { font-size: 1.2rem; padding: 15px; }
+            .signature { font-size: 2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Floating Elements -->
+    <div class="floating-element">💖</div>
+    <div class="floating-element">🎀</div>
+    <div class="floating-element">💌</div>
+    <div class="floating-element">🌸</div>
+    <div class="floating-element">💕</div>
+
+    <div class="love-container">
+        <div class="love-card">
+            <div class="header">
+                <h1 class="couple-names">Əli ❤️ Qəmər</h1>
+                <div class="heart-separator">💞</div>
+            </div>
+
+            <div class="love-letter" id="loveText">
+                <!-- Text will be injected by JavaScript -->
+            Gözəlim mənim,💖<br>Sənin üçün çox darıxıram...😫<br>Səni 10 saniyə görə bilmək üçün 10 ilimi belə verərəm...🫀<br>Səni tamamilə itirmək məni qorxudur,😢<br>Hər şeyin öhdəsindən bir yerdə gələ bilərik...💓<br>Sən mənim hər şeyimsən...💗<br>Nə olar bizə bir şans daha ver, sənsiz qala bilmirəm...🥹</div>
+
+            <div class="signature">
+                Qəmər,<br>
+                səni çox sevirəm 💝
+            </div>
+        </div>
+    </div>
+
+
+    <script>
+        // Create floating elements
+        function createFloatingElements() {
+            const emojis = ['💖', '💘', '💝', '💟', '💌', '🎀', '🌸'];
+            const container = document.body;
+            
+            for(let i = 0; i < 20; i++) {
+                const element = document.createElement('div');
+                element.className = 'floating-element';
+                element.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                element.style.left = Math.random() * window.innerWidth + 'px';
+                element.style.animationDuration = Math.random() * 5 + 5 + 's';
+                element.style.fontSize = Math.random() * 25 + 20 + 'px';
+                container.appendChild(element);
+            }
+        }
+        createFloatingElements();
+
+        
+
+        let index = 0;
+        const loveText = document.getElementById('loveText');
+        
+        function typeWriter() {
+            if (index < text.length) {
+                loveText.innerHTML += text.charAt(index) === '\n' ? '<br>' : text.charAt(index);
+                index++;
+                setTimeout(typeWriter, Math.random() * 50 + 50);
+                
+                // Random emoji effects
+                if(Math.random() < 0.1) {
+                    const emoji = document.createElement('span');
+                    emoji.textContent = ['💖', '💘', '💝'][Math.floor(Math.random()*3)];
+                    emoji.style.position = 'absolute';
+                    emoji.style.left = Math.random() * window.innerWidth + 'px';
+                    emoji.style.top = Math.random() * window.innerHeight + 'px';
+                    emoji.style.animation = `pop ${Math.random() * 0.5 + 0.5}s ease`;
+                    document.body.appendChild(emoji);
+                    setTimeout(() => emoji.remove(), 1000);
+                }
+            }
+        }
+        typeWriter();
+
+        // Music Control
+        const audio = new Audio('kitna kuch kehna.mp3');
+        const musicBtn = document.querySelector('.music-player');
+        let isPlaying = false;
+        
+        // Optional: Add error handling for audio loading
+        audio.addEventListener('error', (e) => {
+            console.error('Error loading audio file:', e);
+        });
+        
+        musicBtn.addEventListener('click', () => {
+            isPlaying = !isPlaying;
+            musicBtn.style.background = isPlaying ? '#ff69b4' : 'rgba(255, 255, 255, 0.9)';
+            musicBtn.style.transform = isPlaying ? 'rotate(360deg)' : 'rotate(0deg)';
+            
+            if (isPlaying) {
+                audio.play().catch((error) => {
+                    console.error('Error playing audio:', error);
+                });
+            } else {
+                audio.pause();
+            }
+        });
+
+        // Add initial animation to card
+        gsap.from('.love-card', {
+            duration: 1.5,
+            scale: 0.5,
+            opacity: 0,
+            ease: "elastic.out(1, 0.3)"
+        });
+    </script><div class="floating-element" style="left: 1107.18px; animation-duration: 6.91555s; font-size: 42.6402px;">🎀</div><div class="floating-element" style="left: 2.62527px; animation-duration: 8.18706s; font-size: 20.024px;">🌸</div><div class="floating-element" style="left: 357.367px; animation-duration: 8.60437s; font-size: 38.6974px;">💌</div><div class="floating-element" style="left: 178.57px; animation-duration: 9.38268s; font-size: 25.8057px;">💝</div><div class="floating-element" style="left: 1453.5px; animation-duration: 8.26183s; font-size: 23.9998px;">💖</div><div class="floating-element" style="left: 1420.41px; animation-duration: 8.74149s; font-size: 20.233px;">💟</div><div class="floating-element" style="left: 1235.89px; animation-duration: 8.29845s; font-size: 33.1867px;">💟</div><div class="floating-element" style="left: 173.967px; animation-duration: 8.12562s; font-size: 20.3811px;">💌</div><div class="floating-element" style="left: 1465.6px; animation-duration: 5.66213s; font-size: 34.0091px;">💖</div><div class="floating-element" style="left: 438.086px; animation-duration: 6.80234s; font-size: 41.7516px;">💘</div><div class="floating-element" style="left: 781.601px; animation-duration: 7.44469s; font-size: 37.7958px;">💌</div><div class="floating-element" style="left: 1206.42px; animation-duration: 7.63782s; font-size: 43.2844px;">💖</div><div class="floating-element" style="left: 256.163px; animation-duration: 8.45797s; font-size: 33.4194px;">💖</div><div class="floating-element" style="left: 600.01px; animation-duration: 7.18621s; font-size: 30.6198px;">💌</div><div class="floating-element" style="left: 1470.84px; animation-duration: 8.86302s; font-size: 42.2952px;">🌸</div><div class="floating-element" style="left: 615.09px; animation-duration: 8.41358s; font-size: 22.6732px;">🌸</div><div class="floating-element" style="left: 914.303px; animation-duration: 6.59811s; font-size: 41.2773px;">💘</div><div class="floating-element" style="left: 910.668px; animation-duration: 8.12385s; font-size: 24.7291px;">💟</div><div class="floating-element" style="left: 337.21px; animation-duration: 7.17282s; font-size: 44.6174px;">💌</div><div class="floating-element" style="left: 692.807px; animation-duration: 9.91948s; font-size: 28.9134px;">💌</div>
+
+
+</body></html>
